@@ -499,7 +499,7 @@ body{
         display: block;
     }
 }
-@media (min-width: 507px) {
+@media (max-width: 507px) {
     .dropdown-slide > .dropdown-menu {
         display: none;
     }
