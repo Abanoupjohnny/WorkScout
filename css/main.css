@@ -499,3 +499,11 @@ body{
         display: block;
     }
 }
+@media (min-width: 507px) {
+    .dropdown-slide > .dropdown-menu {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item:hover > .dropdown-menu {
+        display: block;
+    }
+}
