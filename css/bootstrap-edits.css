@@ -1,0 +1,55 @@
+.navbar-dark .navbar-nav .nav-link:focus, 
+    .navbar-dark .navbar-nav .nav-link:hover ,
+      .navbar-dark .navbar-nav .show>.nav-link{
+        color: #26ae61;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-weight: 700;
+  font-size: 17px;
+}
+.btn-outline-success {
+    color: #26ae61;
+    border-color: #26ae61;
+}
+.dropdown-slide > .dropdown-menu {
+    opacity:.3;
+    display: block;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transform: scale(1, 0);
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s cubic-bezier(1,-0.43, 0, 0.62);
+  }
+  
+  .show.dropdown-slide > .dropdown-menu {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity:1;
+  }
+  
+  .dropdown-divider {
+    margin: .5rem 15px;
+    border-top: 1px solid rgb(245 245 245 / 68%);
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .carousel-caption {
+      z-index: 1;
+  }
+  .btn-success {
+    background-color: #26ae61;
+    border-color: #16964e;
+  }
+  .btn-check:focus + .btn-success, .btn-success:focus , .form-select:focus, .form-control:focus {
+    border-color: #55c9877c;
+    box-shadow: 0 0 0 0.25rem #26ae6180
+  }
+  .btn-check:focus + .btn-success, .btn-success:focus {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+    box-shadow: 0 0 0 0.25rem rgb(60 153 110 / 50%);
+}
